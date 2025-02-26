@@ -121,18 +121,19 @@ void Game::update()
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::F))
 	{
 		// the player’s movement speed should increase by 1.
-		m_myPlayer.speedIncrease(0.5f);
+		m_myPlayer.speedIncrease();
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
 	{
 		// the player’s movement speed should decrease by 1.
-		m_myPlayer.speedDecrease(-0.5);
+		m_myPlayer.speedDecrease();
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::I))
 	{
 		// the size of the player's image increases. This occurs only once.
+		m_myPlayer.increaseSize();
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::C))

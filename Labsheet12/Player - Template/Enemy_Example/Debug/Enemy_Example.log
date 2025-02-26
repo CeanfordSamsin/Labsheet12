@@ -1,46 +1,10 @@
 ﻿  Game.cpp
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(78,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(92,13): error C2079: 'event' uses undefined class 'sf::Event'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(93,19): error C2664: 'bool sf::WindowBase::pollEvent(sf::Event &)': cannot convert argument 1 from 'int' to 'sf::Event &'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(95,33): error C2027: use of undefined type 'sf::Event'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(95,33): error C2065: 'Closed': undeclared identifier
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(121,10): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(121,10): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(121,20): error C2039: 'isKeyPressed': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(121,37): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(121,37): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(121,47): error C2039: 'F': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(121,47): error C2065: 'F': undeclared identifier
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(121,20): error C3861: 'isKeyPressed': identifier not found
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(127,10): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(127,10): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(127,20): error C2039: 'isKeyPressed': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(127,37): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(127,37): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(127,47): error C2039: 'S': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(127,47): error C2065: 'S': undeclared identifier
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(127,20): error C3861: 'isKeyPressed': identifier not found
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(133,10): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(133,10): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(133,20): error C2039: 'isKeyPressed': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(133,37): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(133,37): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(133,47): error C2039: 'I': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(133,47): error C2065: 'I': undeclared identifier
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(133,20): error C3861: 'isKeyPressed': identifier not found
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(138,10): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(138,10): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(138,20): error C2039: 'isKeyPressed': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(138,37): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(138,37): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(138,47): error C2039: 'C': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(138,47): error C2065: 'C': undeclared identifier
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(138,20): error C3861: 'isKeyPressed': identifier not found
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(144,10): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(144,10): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(144,20): error C2039: 'isKeyPressed': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(144,37): error C2039: 'Keyboard': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(144,37): error C3083: 'Keyboard': the symbol to the left of a '::' must be a type
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(144,47): error C2039: 'D': is not a member of 'sf'
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(144,47): error C2065: 'D': undeclared identifier
-M:\Labsheet12\Player - Template\Enemy_Example\Game.cpp(144,20): error C3861: 'isKeyPressed': identifier not found
+C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Game.cpp(78,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Player.cpp
+C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(16,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(17,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(52,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(52,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(91,20): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Enemy_Example.vcxproj -> C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Debug\PlayerProject.exe

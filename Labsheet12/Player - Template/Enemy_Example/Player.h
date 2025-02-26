@@ -12,7 +12,7 @@ class Player
 	sf::Texture m_texture; // texture for player
 	sf::Sprite m_sprite;   // sprite used to represent player
 	int m_image_width;  // the width of the image in pixels
-	bool m_scaled;  // is the image increased in size
+	bool m_scaled;  // is the image increased in size 
 
 	int m_speed = 1;  // the speed that the player moves
 	int m_lives;    // the number of lives
@@ -31,7 +31,9 @@ public:	  // declaration of member functions
 
 	void move();
 	void changeColor();
-	void speedIncrease(float amount);
-	void speedDecrease(float amount);
+	void speedIncrease();
+	void speedDecrease();
+	void increaseSize();
+	void decreaseSize();
 
 };

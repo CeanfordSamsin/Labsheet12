@@ -58,22 +58,38 @@ void Player::changeColor()
 	m_sprite.setColor(sf::Color::Blue);
 }
 
-void Player::speedIncrease(float amount)
+void Player::speedIncrease()
 {
-	m_speed += amount;
-
+	int increase = 1;
+	if (m_speed < 15)
+	{
+		m_speed += increase;
+	}
 }
 
-void Player::speedDecrease(float amount)
+void Player::speedDecrease()
 {
-	int decrease = 1;
-	m_speed -= decrease;
+	int decrease = -1;
 
-	if (m_speed < 0)
+
+	if (m_speed > 0)
 	{
+		m_speed += decrease;
 		std::cout << "Can't go lower than zero" << std::endl;
-		m_speed = 0;
 	}
+}
+
+void Player::increaseSize()
+{
+	if (m_scaled == false)
+	{
+		float scaleIncrease = 2.0f;
+		//get the x and Y to increase size using with whatever the scaleIncrease number is.
+		m_sprite.setScale(scaleIncrease,scaleIncrease);
+		m_image_width *= scaleIncrease;
+		m_scaled = true;
+	}
+	
 }
 
 void Player::move()
@@ -101,6 +117,7 @@ void Player::move()
 	m_sprite.setPosition(pos);
 
 }
+
 
 
 
