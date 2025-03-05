@@ -1,10 +1,7 @@
-﻿  Game.cpp
-C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Game.cpp(78,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Player.cpp
+﻿  Player.cpp
 C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(16,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(17,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(52,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(52,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(91,20): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
-  Generating Code...
+C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Enemy_Example\Player.cpp(84,20): warning C4244: '*=': conversion from 'float' to 'int', possible loss of data
   Enemy_Example.vcxproj -> C:\Users\C00310517\Desktop\New folder\Labsheet12\Labsheet12\Player - Template\Debug\PlayerProject.exe

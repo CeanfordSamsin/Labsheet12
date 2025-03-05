@@ -34,6 +34,6 @@ public:	  // declaration of member functions
 	void speedIncrease();
 	void speedDecrease();
 	void increaseSize();
-	void decreaseSize();
+	void changeDirection();
 
 };

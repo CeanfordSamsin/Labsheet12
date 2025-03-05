@@ -54,27 +54,22 @@ void Player::setPosition(int xPos, int yPos)  // set the position of the player 
 
 void Player::changeColor()
 {
-
-	m_sprite.setColor(sf::Color::Blue);
+	m_sprite.setColor(sf::Color(rand() % 256, rand() % 256, rand() % 256));
 }
 
 void Player::speedIncrease()
 {
-	int increase = 1;
 	if (m_speed < 15)
 	{
-		m_speed += increase;
+		m_speed++;
 	}
 }
 
 void Player::speedDecrease()
 {
-	int decrease = -1;
-
-
 	if (m_speed > 0)
 	{
-		m_speed += decrease;
+		m_speed--;
 		std::cout << "Can't go lower than zero" << std::endl;
 	}
 }
@@ -117,7 +112,20 @@ void Player::move()
 	m_sprite.setPosition(pos);
 
 }
-
+void Player::changeDirection()
+{
+	
+	if (m_direction == EAST)
+	{
+		m_direction = WEST;
+		std::cout << "turn back" << std::endl;
+	}
+	if (m_direction == WEST)
+	{
+		m_direction = EAST;
+		std::cout << "turn forth" << std::endl;
+	}
+}
 
 
 

@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Enemy_Example\\Player.cpp",
               "ToolTip": "C:\\Users\\C00310517\\Desktop\\New folder\\Labsheet12\\Labsheet12\\Player - Template\\Enemy_Example\\Player.cpp",
               "RelativeToolTip": "Enemy_Example\\Player.cpp",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEIAAAACAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAwIMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-24T09:29:26.528Z",
               "EditorCaption": ""
@@ -45,10 +45,9 @@
               "RelativeDocumentMoniker": "Enemy_Example\\Player.h",
               "ToolTip": "C:\\Users\\C00310517\\Desktop\\New folder\\Labsheet12\\Labsheet12\\Player - Template\\Enemy_Example\\Player.h",
               "RelativeToolTip": "Enemy_Example\\Player.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-24T09:27:19.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T09:27:19.579Z"
             },
             {
               "$type": "Document",
@@ -58,10 +57,9 @@
               "RelativeDocumentMoniker": "Enemy_Example\\Game.cpp",
               "ToolTip": "C:\\Users\\C00310517\\Desktop\\New folder\\Labsheet12\\Labsheet12\\Player - Template\\Enemy_Example\\Game.cpp",
               "RelativeToolTip": "Enemy_Example\\Game.cpp",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAAAFYAAAARAAAA",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAJMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-24T09:26:37.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T09:26:37.695Z"
             }
           ]
         }
